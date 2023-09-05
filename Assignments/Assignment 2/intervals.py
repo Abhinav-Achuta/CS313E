@@ -1,4 +1,19 @@
 """
+    File: intervals.py
+    Description: First we merged the tuples by comparing two values within the tuples.
+    We then used the merged tuples and ordered the tuples based on the range of the tuples.
+
+    Student Name: Abhinav Achuta
+    Student UT EID: aa85934
+
+    Partner Name: Seowon Jeong
+    Partner UT EID: sj32632
+
+    Course Name: CS 313E
+    Unique Number: 52590
+    Date Created: 9/4/23
+    Date Last Modified: 9/4/23
+
     Input: tuples_list is an unsorted list of tuples denoting intervals
     Output: a list of merged tuples sorted by the lower number of the
     interval
