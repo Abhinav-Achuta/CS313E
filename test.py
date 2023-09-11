@@ -1,14 +1,9 @@
-def highest_debt(debts):
-    
-    for i in range(len(debts)):
-        for j in range(i+1, len(debts)):
-            if debts[i] > debts[j]:
-                temp = debts[i]
-                debts[i] = debts[j]
-                debts[j] = temp
-    return(debts)
+student_info = {
+        'Reagan' : 'rebradshaw835',
+        'Ryley' : 'rbarber894',
+        'Peyton' : 'pstott885',
+        'Tyrese' : 'tmayo945',
+        'Caius' : 'ccharlton329'
+    }
 
-
-list = [9,8,10,13]
-
-print(highest_debt(list))
+print(student_info['Reagan'])
